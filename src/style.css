@@ -1,1 +1,44 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #111; /* Fondo oscuro */
+    font-family: "Arial", sans-serif;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    color: #135b4b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra del texto */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0 20px; /* Espaciado del texto */
+    color: #ccc; /* Color gris claro */
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #135b4b; /* Botón rojo */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra del botón */
+  }
+
+  button:hover {
+    background-color: #ffffff; /* Color más oscuro al pasar el ratón */
+    color: #111;
+  }

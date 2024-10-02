@@ -1,5 +1,5 @@
 // import "bootstrap"; // Descomentar si usas Bootstrap
-// // import "./style.css"; // Descomentar si usas CSS
+// import "./style.css"; // Descomentar si usas CSS
 
 // write your code here
 function excusasF1() {
@@ -32,17 +32,14 @@ function excusasF1() {
     " en Silverstone."
   ];
 
-  // Selección aleatoria de los elementos
   const quienAleatorio = quien[Math.floor(Math.random() * quien.length)];
   const accionAleatorio = accion[Math.floor(Math.random() * accion.length)];
   const cosaAleatorio = cosa[Math.floor(Math.random() * cosa.length)];
   const lugarAleatorio = lugar[Math.floor(Math.random() * lugar.length)];
 
-  // Concatenación de la excusa final
   const excusaFinal =
     quienAleatorio + accionAleatorio + cosaAleatorio + lugarAleatorio;
 
-  // Mostrar el resultado en el elemento con id "excusaFinal"
   document.getElementById("excusaFinal").innerText = excusaFinal;
 
   return excusaFinal;

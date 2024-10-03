@@ -1,7 +1,3 @@
-// import "bootstrap"; // Descomentar si usas Bootstrap
-// import "./style.css"; // Descomentar si usas CSS
-
-// write your code here
 function excusasF1() {
   const quien = [
     "Fernando Alonso",

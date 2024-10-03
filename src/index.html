@@ -8,11 +8,18 @@
   </head>
   <body>
     <h1>Generador de eventos de la Formula 1</h1>
+    <!-- //evento generado con HTML puro -->
+    <h2>Alonso ganó la 33</h2>
+    <!-- //evento generado con HTML puro -->
 
     <h2 id="excusaFinal">Presiona el botón para obtener una excusa Nueva</h2>
 
-    <button onclick="excusasF1()">Generar excusa</button>
+    <button onmousedown="excusasF1()">Generar excusa</button>
 
-    <script src="./src/app.js"></script>
+    <script src="./src/app.js">
+      window.onload = function() {
+        excusasF1();
+      };
+    </script>
   </body>
 </html>

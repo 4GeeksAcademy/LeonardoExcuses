@@ -11,11 +11,11 @@ function excusasF1() {
     " chocó con ",
     " pasó por la izquierda de ",
     " pasó por la derecha de ",
-    " esquivó en el último minuto a "
+    " esquivó en el último minuto "
   ];
   const cosa = [
     "un mecánico",
-    "un neumático",
+    "una pieza de fibra de carbono",
     "un rezagado",
     "un aficionado que saltó a la pista"
   ];
@@ -36,7 +36,7 @@ function excusasF1() {
   const excusaFinal =
     quienAleatorio + accionAleatorio + cosaAleatorio + lugarAleatorio;
 
-  document.getElementById("excusaFinal").innerText = excusaFinal;
+  document.getElementById("excusaFinal").innerHTML = excusaFinal;
 
   return excusaFinal;
 }

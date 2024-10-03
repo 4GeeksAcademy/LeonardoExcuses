@@ -1,1 +1,40 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1d1d1d;
+    font-family: "Arial", sans-serif;
+  }
+
+  h1 {
+    font-size: 7vh;
+    text-align: center;
+    margin: 0;
+    color: #135b4b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+
+  h2 {
+    font-size: 3vh;
+    text-align: center;
+    margin: 10px 0 20px;
+    color: #ccc;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 2vh;
+    border-radius: 8px;
+    background-color: #135b4b;
+    color: #fff;
+    transition: background-color 0.8s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  button:hover {
+    background-color: #ffffff;
+    color: #111;
+  }
